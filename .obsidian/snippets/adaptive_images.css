@@ -37,18 +37,18 @@
 /* Image dynamic colors inversion */
 /* Aggiungi class per applicare l'effetto solo alle immagini SVG */
 
-.theme-dark img[alt$="invert_B"] {
+.theme-dark span[src$="#invert_B"] img {
   filter: invert(1) brightness(100%) saturate(3)
 }
 
-.theme-light img[img$="#invert_W"] {
+.theme-light span[src$="#invert_W"] img {
   filter: invert(1) brightness(100%) saturate(0) hue-rotate(180deg);
 }
 
-.theme-dark img[img$="invert_B_C"] {
+.theme-dark span[src$="#invert_B_C"] img {
   filter: invert(1) brightness(100%) saturate(0) hue-rotate(180deg) contrast(1.5);
 }
 
-.theme-light img[img$="#invert_W_C"] {
+.theme-light span[src$="#invert_W_C"] img {
   filter: invert(1) brightness(100%) saturate(0) hue-rotate(180deg) contrast(1.45);
 }
